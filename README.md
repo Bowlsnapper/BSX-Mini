@@ -18,6 +18,7 @@ When ordering the 1.0 mm JST-SH cables, specify them as 3-pin and 4-pin, 30 cm, 
 ### Buy Dupont cables that are as thin as possible.
 The thinner the wire, the easier it is to solder to the D0 point and the less mechanical stress it places on the pad. Regardless of wire gauge, I strongly recommend securing the wire near the solder joint with tape or another form of strain relief. This helps prevent movement from eventually damaging or lifting the pad.
 
+----------------------------------------------------------------------------
 This is a Pico modchip. You can run anything that will run on a pico, including the pico blink.uf2. It is my hope that more software will be developed that can make use of this platform and that what currently exists will continue to evolve. I designed them to run ModXo and PrometheOS, but the possibilities are endless. 
 
 This is one of my babies. I worked hard to create a solid modchip that the community could rely on, and it absolutely is such.
