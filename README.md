@@ -39,6 +39,7 @@ The BSX Mods Discord: https://discord.gg/H8pHk3VbH2
 The BSX Mods OG Xbox Forum: https://forums.bsxmods.net
 
 The BSX Mods store, where you can purchase the chips, as well as its big brother, the Nova: 
+
 https://www.bsxmods.net
 Password: number5isalive
 
