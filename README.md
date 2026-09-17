@@ -1,17 +1,22 @@
 
-# BSX Mini ModXo Modchip
+# Design Notes and Recommendations
 
 There are a couple of points about this chip that I would like to make.
 
-- The design is intended to make use of ENIG. HASL looks like trash compared to it and I would appreciate it if people would be willing to spend the money on it. It improves the whole board construction. It doesn't just add gold... which I absolutely would love to see.
+### ENIG is strongly recommended.
+- This board was designed with ENIG surface finishing in mind. HASL will work electrically, but ENIG produces a substantially cleaner result and better suits the construction and appearance of the board. If you are having these manufactured, I strongly recommend spending the extra money on it.
 
-- You must use epoxy Via filling, because the design uses Via-In-Pad. If you do not use it, Solder can creep down into teh vias and starve the pads. Tombstoning can occur on passives. That would be bad.
+### Use epoxy-filled vias.
+- The design makes use of via-in-pad, so epoxy via filling is highly recommended. Without it, solder can wick into the vias during assembly, potentially starving pads of solder and contributing to poor joints or tombstoning on small passive components.
 
-- The D0 dupont pin that is in teh BOM is SMD. It is NOT meant to be through hole. It will work as one, though. I use it because it makes the solder pad look nice and domed, instead of with a nasty pin poking through. A through hole part is on LCSC though, if you MUST have one. Meh.
+### The D0 Dupont pin specified in the BOM is an SMD part.
+- It is intentionally not through-hole. I use the SMD version because it leaves a clean, domed solder joint rather than having a pin protruding through the PCB. A through-hole equivalent can be used if preferred, but it is not necessary.
 
-- When ordering the JST SH 1.0mm 3 & 4P cables from China, you must specify them as such, "3P and 4P, 30CM, straight across, black. 
+### JST-SH cable specifications.
+When ordering the 1.0 mm JST-SH cables, specify them as 3-pin and 4-pin, 30 cm, straight-through, black. This avoids receiving cables with reversed pin ordering or an unsuitable configuration.
 
-- When ordering the Dupont D0 cables, spring for the thinnest wires you can find. This will ultimately make it easier to solder to the point and will pose less of a risk of pulling a pad or damaging the board, although it is ALWAYS recommended to tape down the wire at the solder point in order to prevent stress and detachment from occuring.
+### Buy Dupont cables that are as thin as possible.
+The thinner the wire, the easier it is to solder to the D0 point and the less mechanical stress it places on the pad. Regardless of wire gauge, I strongly recommend securing the wire near the solder joint with tape or another form of strain relief. This helps prevent movement from eventually damaging or lifting the pad.
 
 This is a Pico modchip. You can run anything that will run on a pico, including the pico blink.uf2. It is my hope that more software will be developed that can make use of this platform and that what currently exists will continue to evolve. I designed them to run ModXo and PrometheOS, but the possibilities are endless. 
 
