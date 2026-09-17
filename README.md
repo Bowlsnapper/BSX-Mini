@@ -36,6 +36,9 @@ This project would not have been possible had it not been for the existence of M
  - [ModXo Github Repository](https://github.com/Team-Resurgent/modxo)
  - [PrometheOS Github](https://github.com/Team-Resurgent/PrometheOS-Firmware)
 
+Big shout out to !!!thexkey for shooting me the original schematic that had basically a pico MCU, the flash, and a USB port on it. It was these humble beginnings that the BSX Modchips were borne from. 
+
+And a big shout out to MiecraftGman, who has been with me since the beginning in the Discord and when I announced the chips on reddit.
 
 ## Support
 
