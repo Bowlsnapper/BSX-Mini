@@ -1,0 +1,17 @@
+{
+  "FTPHost": "distribution.xbins.org",
+  "FTPPort": 21,
+  "FTPUser": "",
+  "FTPPassword": "",
+  "EffnetServers": [
+    "irc.servercentral.net",
+    "irc.prison.net",
+    "irc.underworld.no",
+    "efnet.port80.se",
+    "efnet.deic.eu",
+    "irc.efnet.nl",
+    "irc.swepipe.se",
+    "irc.efnet.fr",
+    "irc.choopa.net"
+  ]
+}
