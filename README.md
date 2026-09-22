@@ -84,7 +84,7 @@ Big shout out to !!!thexkey for shooting me the original schematic that had basi
 <img width="574" height="802" alt="{7A796D05-1663-487F-B806-28409B8C7A38}" src="https://github.com/user-attachments/assets/0ddcd5df-2b44-4a19-87ad-843dd11712ae" />
 
 
-And a big shout out to MiecraftGman, who has been with me since the beginning in the Discord and when I announced the chips on reddit.
+And a big shout out to MinecraftGman, who has been with me since the beginning in the Discord and when I announced the chips on reddit.
 
 ## Support
 
