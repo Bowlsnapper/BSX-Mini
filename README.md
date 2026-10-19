@@ -6,6 +6,9 @@
 
 ![Cozy Chip!](Photos/Console%201.jpg)
 
+<img width="781" height="862" alt="{B33773ED-F916-4A94-91D9-236C93091575}" src="https://github.com/user-attachments/assets/70c06e0f-1ae4-4b6b-8b75-00a043f02857" />
+
+
 -----------------------------------------------------
 
 This is the BSX Mini ModXo modchip. This is currently the best hardware representation of the ModXo platform that is possible with the 2040 MCU. 
