@@ -12,13 +12,7 @@ This is the BSX Mini ModXo modchip. This is currently the best hardware represen
 
 This is a Pico modchip. You can run anything that will run on a pico, including the pico blink.uf2. It is my hope that more software will be developed that can make use of this platform and that what currently exists will continue to evolve. I designed them to run ModXo and PrometheOS, but the possibilities are endless. Right now, Xbox-Scene is working on hardware that will surpass this, in most people's views, at least in function. But I think that it is one of the nicest quality modchips ever made and probably will be for a long time. 
 
-This is one of my babies. I worked hard to create a solid modchip that the community could rely on, and it absolutely is such.
-
-It is important to note, however, that ModXO runs the RP2040 at 266 MHz, which is well beyond its stock clock speed. Not every RP2040 will reliably reach that frequency due to normal silicon-to-silicon variation. In my extended testing, this affected roughly 1 in 20 chips.
-
-This is not a fault with the BSX Mini PCB itself. On affected boards, replacing the RP2040 with another chip resolved the issue. I have never shipped a non-working unit, because every Mini was tested before leaving me.
-
-This discovery is one of the reasons I am moving the next generation of the design to the RP2350B. It may also be possible that later-production RP2040 silicon overclocks more consistently, but I have not tested enough newer chips to make that claim.
+This is one of my babies. I worked hard to create a solid modchip that the community could rely on, and it absolutely is such. Earlier versions of the firmware could not reliably overclock the MCU and some units were DOA because of this. But with recent optimizations, the reliability is up to 100 percent... LITERALLY.  The design is solid, and this is good news for
 
 ## Design Notes and Recommendations
 
@@ -77,11 +71,18 @@ This project would not have been possible had it not been for the existence of M
  - [ModXo Github Repository](https://github.com/Team-Resurgent/modxo)
  - [PrometheOS Github](https://github.com/Team-Resurgent/PrometheOS-Firmware)
 
-Big shout out to !!!thexkey for shooting me the original schematic that had basically a pico MCU, the flash, and a USB port on it. It was these humble beginnings that the BSX Modchips were borne from. This is what the Nova looked like when I was done sitting with Key and Harcroft for a couple days and decided to create a new PCB/Project file for the rest of the project
+Big shout out to !!!thexkey for shooting me the original schematic that had basically a pico MCU, the flash, and a USB port on it. It was these humble beginnings that the BSX Modchips were borne from. This is what the Nova looked like when I was done sitting with Key and Harcroft for a couple days and decided to create a new PCB/Project file for the rest of the project.
+
+The state of the Nova at the point where I started a new KiCad project:
 
 <img width="468" height="694" alt="{5368A69D-1D21-43DC-B59F-9C4F16A7A417}" src="https://github.com/user-attachments/assets/0c3e959d-e791-4f87-8bb0-05fa9de0a1dc" />
 
 <img width="574" height="802" alt="{7A796D05-1663-487F-B806-28409B8C7A38}" src="https://github.com/user-attachments/assets/0ddcd5df-2b44-4a19-87ad-843dd11712ae" />
+
+The finished state of the Mini, after I finished the Nova and thought that a Mini version would be cool. 
+
+<img width="781" height="862" alt="{B33773ED-F916-4A94-91D9-236C93091575}" src="https://github.com/user-attachments/assets/1fbad933-bc36-47b0-9de9-413b745ff620" />
+
 
 
 And a big shout out to MinecraftGman, who has been with me since the beginning in the Discord and when I announced the chips on reddit.
