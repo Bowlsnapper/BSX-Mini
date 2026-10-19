@@ -6,7 +6,6 @@
 
 ![Cozy Chip!](Photos/Console%201.jpg)
 
-<img width="781" height="862" alt="{B33773ED-F916-4A94-91D9-236C93091575}" src="https://github.com/user-attachments/assets/70c06e0f-1ae4-4b6b-8b75-00a043f02857" />
 
 
 -----------------------------------------------------
@@ -76,15 +75,11 @@ This project would not have been possible had it not been for the existence of M
 
 Big shout out to !!!thexkey for shooting me the original schematic that had basically a pico MCU, the flash, and a USB port on it. It was these humble beginnings that the BSX Modchips were borne from. This is what the Nova looked like when I was done sitting with Key and Harcroft for a couple days and decided to create a new PCB/Project file for the rest of the project.
 
-The state of the Nova at the point where I started a new KiCad project:
+The state of the Nova at the point where I started a new KiCad project, which I converted and split off into the Mini:
 
 <img width="468" height="694" alt="{5368A69D-1D21-43DC-B59F-9C4F16A7A417}" src="https://github.com/user-attachments/assets/0c3e959d-e791-4f87-8bb0-05fa9de0a1dc" />
 
 <img width="574" height="802" alt="{7A796D05-1663-487F-B806-28409B8C7A38}" src="https://github.com/user-attachments/assets/0ddcd5df-2b44-4a19-87ad-843dd11712ae" />
-
-The finished state of the Mini, after I finished the Nova and thought that a Mini version would be cool. 
-
-<img width="781" height="862" alt="{B33773ED-F916-4A94-91D9-236C93091575}" src="https://github.com/user-attachments/assets/1fbad933-bc36-47b0-9de9-413b745ff620" />
 
 
 
